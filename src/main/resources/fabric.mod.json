@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "frogjam",
   "version": "${version}",
 
-  "name": "DiamondDev Template Mod",
-  "description": "bottom text",
+  "name": "FrogJam",
+  "description": "They have a theme.",
   "authors": [
     "DiamondDev"
   ],
   "contact": {
     "homepage": "https://github.com/diamonddevv/",
-    "sources": "https://github.com/diamonddevv/diamonddev-template-mod"
+    "sources": "https://github.com/diamonddevv/frogjam"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/frogjam/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.diamonddev.template.TemplateMod"
+      "net.diamonddev.frogjam.FrogJam"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "frogjam.mixins.json"
   ],
 
   "depends": {
